@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+#box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Compound Interest Calculator</h1>
+
+    <form>
+        <label for="principle">PRINCIPLE AMOUNT:</label>
+        <input type="number" name="principle" id="principleAmount">
+
+        <label for="rate">RATE:</label>
+        <input type="number" name="rate" id="rateNumber">
+
+        <label for="years">YEARS:</label>
+        <input type="number" name="years" id="Years">
+
+        <button type="button" onclick="calculate()">SUBMIT</button>
+
+        <p id="para">TOTAL: <span id="result">00</span></p>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>

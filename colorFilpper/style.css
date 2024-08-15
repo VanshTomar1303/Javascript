@@ -1,0 +1,25 @@
+div{
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+}
+#green,
+#blue,
+#red,
+#random{
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#green:hover{
+    background-color: rgb(21, 251, 21);
+}
+#red:hover{
+    background-color: rgb(244, 68, 68);
+}
+#blue:hover{
+    background-color: rgb(69, 69, 248);
+}

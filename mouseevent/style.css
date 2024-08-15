@@ -1,0 +1,10 @@
+#box{
+    display: flex;
+    color:white;
+    font: 4.1rem sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(168, 27, 27);
+    height: 300px;
+    width: 300px;
+}

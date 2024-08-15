@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font:5rem Verdana;
+    font-weight: bolder;
+}
+#container{
+    font:3rem Verdana;
+    border: 1px solid rgba(97, 97, 97, 0.5);
+    height: 200px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px rgb(85, 84, 84);
+}
+#display{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#start,
+#reset,
+#stop{
+    margin-top: 40px;
+    font:2rem Verdana;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 60px;
+}
+#start:hover,
+#reset:hover,
+#stop:hover{
+    opacity: 0.5;
+}

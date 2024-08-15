@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#btn{
+    margin-top: 100px;
+    height:100px;
+    width:100px;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+#dice_container{
+    text-align: center;
+}
+#dice{
+    margin-top: 150px;
+    height:100px;
+    width:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}

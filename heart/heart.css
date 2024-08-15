@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.h1{
+    color:red;
+    position: absolute;
+    top:100px;
+    left:50%;
+}
+.h2{
+    color:red;
+    position: absolute;
+    bottom:100px;
+    left:50%; 
+}
+.heart {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50vh 50vw;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: -10px 10px 40px red;
+    animation: pop 1s linear infinite;
+}
+
+@keyframes pop {
+    0% {
+        transform: rotate(45deg) scale(1.07);
+    }
+
+    80% {
+        transform: rotate(45deg) scale(1.0);
+    }
+
+    100% {
+        transform: rotate(45deg) scale(0.8);
+    }
+}
+
+.heart:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    box-shadow: -10px 10px 40px red;
+}
+
+.heart:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: -50px;
+    border-radius: 50%;
+    box-shadow: -10px 10px 40px red;
+}

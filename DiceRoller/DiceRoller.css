@@ -1,0 +1,33 @@
+#container{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: blue;
+}
+label{
+    font-size: 30px;
+    color:rgb(82, 250, 16);
+}
+#textbox{
+    font-size:30px;
+    text-align:center;
+    font-weight: bold;
+}
+#btn{
+    font-size: 30px;
+    border:none;
+    background-color: red;
+    color:white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+#result{
+    margin: 20px;
+}
+#image{
+    /* margin: 10px; */
+    margin: 10px;
+}

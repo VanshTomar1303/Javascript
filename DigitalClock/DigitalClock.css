@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('goku.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 450px;
+}
+#clock{
+    color: aliceblue;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

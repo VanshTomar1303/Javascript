@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#number{
+    display: block;
+    text-align: center;
+    font-size: 300px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn_container{
+    display: block;
+    text-align: center;
+}
+#reset,
+#increase,
+#decrease{
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#reset:hover,
+#increase:hover,
+#decrease:hover{
+    background-color: blue;
+    color:white;
+}
