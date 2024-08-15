@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(20, 19, 19, 0.46);
+}
+#cityName{
+    height:30px;
+    width: 350px;
+    position: relative; 
+    left:200px;
+    text-align: center;
+    border: none;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    outline: none;
+    margin: 20px;
+}
+#cityName::placeholder{
+    font-size: larger;
+    font-weight: bolder;
+}
+.btn{
+    height: 55px;
+    width:155px;
+    position: relative; 
+    left:320px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgba(46, 228, 228, 0.503);
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+}
+#temperature,
+#humidity{
+   font: 30px Verdana;
+}
+.container{
+    border:1px solid rgba(0, 0, 0, 0.353);
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    position: relative; 
+    left:200px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 14, 0.474);
+    color: rgba(255, 255, 255, 0.427);
+    border-radius: 10px;
+}

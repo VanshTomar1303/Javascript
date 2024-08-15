@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.con h2{
+    font:bold 2rem monospace;
+}
+.con input{
+    border:1px solid blue;
+    border-radius: 2px;
+    height: 5vh;
+    width: 20vw;
+    font: 2rem monospace;
+    text-align: center;
+    outline-color: rgb(5, 5, 146);
+}
+.con button{
+    border:none;
+    border-radius: 4px;
+    height: 7vh;;
+    width: 10vw;
+    background-color: blueviolet;
+    font:bold 2rem monospace;
+}
+.img-con{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%);
+}

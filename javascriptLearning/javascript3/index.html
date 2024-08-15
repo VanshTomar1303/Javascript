@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <label>Factorial: <span id="fact"></span></label>
+    <script>
+        let factorial=document.getElementById("fact");
+        let num=prompt("Enter a number:");
+        function fact(n){
+            let a=5,c=1;
+            for(let i=1;i<=a;i++){
+                c=c*i;
+            }
+            factorial.textContent=c;
+        }
+        fact(num);
+    </script>
+</body>
+</html>
